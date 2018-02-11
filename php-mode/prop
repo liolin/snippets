@@ -3,15 +3,12 @@
 # key: prop
 # --
 
-private $`yas-selected-text`;
+private $${1:Name};
 
-public function get`(capitalize yas-selected-text)`(): $1{
-       return $this->`yas-selected-text`;
+public function get${1:$(capitalize yas-text)}(): ${2:Type}{
+       return $this->$1;
 }
 
-public function set`(capitalize yas-selected-text)`($1 $`yas-selected-text`): void{
-       $this->`yas-selected-text` = $`yas-selected-text`;
+public function set${1:$(capitalize yas-text)}($2 $$1){
+       $this->$1 = $$1;
 }
-
-
-$0
