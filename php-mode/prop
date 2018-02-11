@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: prop
+# key: prop
+# --
+
+private $`yas-selected-text`;
+
+public function get`(capitalize yas-selected-text)`(): $1{
+       return $this->`yas-selected-text`;
+}
+
+public function set`(capitalize yas-selected-text)`($1 $`yas-selected-text`): void{
+       $this->`yas-selected-text` = $`yas-selected-text`;
+}
+
+
+$0
