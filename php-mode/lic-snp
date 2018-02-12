@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: lic-snp
+# key: lic-snp
+# --
+/***************************************************************\
+| * RES - Reservationssystem                                  * |
+| * Version: $1.$2.$3 - `(format-time-string "%d.%m.%Y")`                               * |
+| *                                                           * |
+| * Developed by Olivier Lischer               	              * |
+| * Swiss National Parc                                       * |
+| * Copyright © `(format-time-string "%Y")` SNP - All rights reserved                * |
+\***************************************************************/
